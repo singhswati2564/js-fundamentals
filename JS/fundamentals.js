@@ -53,9 +53,47 @@
 // )
 // console.log("Map result",r1);
 
-let radius = [1,2,3];
-let area = radius.map((r)=>{
-    return 3.24*2*r;
-})
+// Area of circle
 
-console.log(area);
+// let radius = [1,2,3];
+// let circumference = radius.map((r)=>{
+//     return 3.14*2*r;
+// })
+
+// console.log(circumference);
+
+// create a new array with elements 
+
+// let users = [
+//     {name: "A", age: 17, height:170},
+//     {name: "B", age: 22, height:175},
+//     {name: "c", age: 15, height:168}
+// ];
+
+// let adults = users.filter(u => u.age >= 18);
+
+// let adults = users.filter((u)=>{
+//     return u.age>18;
+
+// })
+
+// reduce array to a single value
+
+// let cart = [
+//     {item: "Book", price:200,loss:50},
+//     {item: "Pen", price:50,loss:90},
+//     {item: "Bag", price:1000,loss:50},
+// ];
+
+// let initialLoss = 10;
+
+// let total = cart.reduce((sum,obj)=> {
+//     return sum +obj.price},
+//     0);
+
+// let loss = cart.reduce((loss,obj)=>{
+//     return loss+obj.loss;
+// },initialLoss);
+
+// console.log(total);
+// console.log(loss);
