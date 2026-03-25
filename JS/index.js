@@ -238,7 +238,7 @@
 
 // // arrays
 
-let a1 = [1,2,3];
+// let a1 = [1,2,3];
 // let a2 = a1;
 
 // a2.push(4);
@@ -249,12 +249,12 @@ let a1 = [1,2,3];
 // b.push(55);
 // console.log(a1);
 
-let c =[...a1];
-c.push(90);
-console.log(a1);
+// let c =[...a1];
+// c.push(90);
+// console.log(a1);
 
 //clone method / deep copy method
-let d = structuredClone(a1);
-d.push(99);
-console.log(a1);
+// let d = structuredClone(a1);
+// d.push(99);
+// console.log(a1);
 
